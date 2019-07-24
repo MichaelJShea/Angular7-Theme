@@ -1,0 +1,69 @@
+/**======================================================================
+=========================================================================
+Template Name: Elite Able Admin Template
+Author: Codedthemes
+supports: https://phoenixcoded.ticksy.com
+File: style.css
+=========================================================================
+=========================================================================
+  == Table of Contents==
+	- Generic classes
+		-	Margin, Padding, Font class, text align, position, floating, overflow, background class, text color, display class, boarder class
+	- Theme Elements
+		-	Accordion, Button, tabs, typography, buttons, box shadow, Lable & Badges, Alert, Pagination, Breadcumb, Cards, Collapse,
+        -   Carousel, Grid, Progress, Model, tooltip, popover, Datepicker, Gridstack, lightbox, notification, Nestable, pnotify, rating,
+        -   Rangeslider, Slider, Syntax Highlighter, Tour, Treeview, Toolbar, Session Timeout, Session idle Timeout, offline, Animation
+    - Forms
+        -   Forms Elements, Advance Form Control, Validation, Masking, Wizard, Picker, Select
+	- Pages
+		-   Chat, authentication, Maintenance, Maps, Landingpage messages, task, Todo, Notes, Charts, Icons, Gallery, Editors,
+        -   Invoice, Full Calender, File Upload,
+=================================================================================
+=================================================================================== */
+// General theme contents
+
+@import "fonts";
+@import "variable";
+@import "color";
+@import "mixins/function";
+@import "mixins/responsive";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "core/core";
+@import "layout/layout";
+@import "components/component";
+
+// Theme Element
+@import "theme-elements/form";
+@import "theme-elements/radiobox-checkbox";
+@import "theme-elements/labels-badges";
+@import "theme-elements/data-tables";
+@import "theme-elements/authentication";
+@import "theme-elements/button";
+@import "theme-elements/alert";
+@import "theme-elements/breadcrumb-pagination";
+@import "theme-elements/progress";
+@import "theme-elements/tooltip";
+@import "theme-elements/popover";
+@import "theme-elements/nav";
+@import "theme-elements/modal";
+
+// Other
+@import "other/chat";
+@import "other/prism";
+@import "other/toolbar";
+@import "other/switches";
+@import "other/wizard";
+@import "other/chart";
+@import "other/icon-lauouts";
+@import "other/calendar";
+@import "other/file-upload";
+@import "other/nestable";
+@import "other/pnotify";
+@import "other/rc-slider";
+
+// change patrh and file name
+@import "pages/extpages";
+@import "pages/pages.scss";
+
+//Dark Theme
+@import "layout/dark";

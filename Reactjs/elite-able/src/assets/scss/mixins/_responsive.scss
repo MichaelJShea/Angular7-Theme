@@ -1,0 +1,33 @@
+//Responsive query
+@mixin res($media) {
+  @if $media == m1920 {
+    @media only screen and (max-width: 1920px) {
+      @content;
+    }
+  }
+  @if $media == m1600 {
+    @media only screen and (max-width: 1600px) {
+      @content;
+    }
+  } @else if $media == m1200 {
+    @media only screen and (max-width: 1200px) {
+      @content;
+    }
+  } @else if $media == m991 {
+    @media only screen and (max-width: 991px) {
+      @content;
+    }
+  } @else if $media == m767 {
+    @media only screen and (max-width: 767px) {
+      @content;
+    }
+  } @else if $media == m480 {
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
+  } @else if $media == m320 {
+    @media only screen and (max-width: 320px) {
+      @content;
+    }
+  }
+}

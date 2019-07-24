@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: $theme-font-size;
+  font-family: $body-font;
+  font-weight: 400;
+  color: $theme-font-color;
+  background: url("assets/images/bg-images/5.jpg");
+  background-attachment: fixed;
+  background-size: auto;
+  vertical-align: baseline;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  @include transition(0.3s, ease);
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    text-decoration: none;
+    outline: none;
+  }
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  @include transition(0.3s, ease);
+  &:focus,
+  &:active,
+  &:visited {
+    text-decoration: none;
+    outline: none;
+  }
+}
+input {
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: $theme-heading-color;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  color: $theme-heading-color;
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+}
+
+b,
+strong {
+  font-weight: 400;
+}
+
+.img-radius {
+  border-radius: 50%;
+}
